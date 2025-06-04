@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		03B7684A2DAC34C700FB8992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B7682B2DAC34C500FB8992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B768322DAC34C500FB8992;
+			remoteInfo = "MeuPrimeiroApp Arthur L";
+		};
+		03B768542DAC34C700FB8992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B7682B2DAC34C500FB8992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B768322DAC34C500FB8992;
+			remoteInfo = "MeuPrimeiroApp Arthur L";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B768332DAC34C500FB8992 /* MeuPrimeiroApp Arthur L.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeuPrimeiroApp Arthur L.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B768492DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeuPrimeiroApp Arthur LTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B768532DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeuPrimeiroApp Arthur LUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		03B7685B2DAC34C700FB8992 /* Exceptions for "MeuPrimeiroApp Arthur L" folder in "MeuPrimeiroApp Arthur L" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 03B768322DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		03B768352DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				03B7685B2DAC34C700FB8992 /* Exceptions for "MeuPrimeiroApp Arthur L" folder in "MeuPrimeiroApp Arthur L" target */,
+			);
+			path = "MeuPrimeiroApp Arthur L";
+			sourceTree = "<group>";
+		};
+		03B7684C2DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MeuPrimeiroApp Arthur LTests";
+			sourceTree = "<group>";
+		};
+		03B768562DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MeuPrimeiroApp Arthur LUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B768302DAC34C500FB8992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B768462DAC34C700FB8992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B768502DAC34C700FB8992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B7682A2DAC34C500FB8992 = {
+			isa = PBXGroup;
+			children = (
+				03B768352DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */,
+				03B7684C2DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests */,
+				03B768562DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests */,
+				03B768342DAC34C500FB8992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B768342DAC34C500FB8992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B768332DAC34C500FB8992 /* MeuPrimeiroApp Arthur L.app */,
+				03B768492DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests.xctest */,
+				03B768532DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B768322DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B7685C2DAC34C700FB8992 /* Build configuration list for PBXNativeTarget "MeuPrimeiroApp Arthur L" */;
+			buildPhases = (
+				03B7682F2DAC34C500FB8992 /* Sources */,
+				03B768302DAC34C500FB8992 /* Frameworks */,
+				03B768312DAC34C500FB8992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				03B768352DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */,
+			);
+			name = "MeuPrimeiroApp Arthur L";
+			packageProductDependencies = (
+			);
+			productName = "MeuPrimeiroApp Arthur L";
+			productReference = 03B768332DAC34C500FB8992 /* MeuPrimeiroApp Arthur L.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B768482DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B768612DAC34C700FB8992 /* Build configuration list for PBXNativeTarget "MeuPrimeiroApp Arthur LTests" */;
+			buildPhases = (
+				03B768452DAC34C700FB8992 /* Sources */,
+				03B768462DAC34C700FB8992 /* Frameworks */,
+				03B768472DAC34C700FB8992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B7684B2DAC34C700FB8992 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03B7684C2DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests */,
+			);
+			name = "MeuPrimeiroApp Arthur LTests";
+			packageProductDependencies = (
+			);
+			productName = "MeuPrimeiroApp Arthur LTests";
+			productReference = 03B768492DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03B768522DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B768642DAC34C700FB8992 /* Build configuration list for PBXNativeTarget "MeuPrimeiroApp Arthur LUITests" */;
+			buildPhases = (
+				03B7684F2DAC34C700FB8992 /* Sources */,
+				03B768502DAC34C700FB8992 /* Frameworks */,
+				03B768512DAC34C700FB8992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B768552DAC34C700FB8992 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				03B768562DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests */,
+			);
+			name = "MeuPrimeiroApp Arthur LUITests";
+			packageProductDependencies = (
+			);
+			productName = "MeuPrimeiroApp Arthur LUITests";
+			productReference = 03B768532DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B7682B2DAC34C500FB8992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					03B768322DAC34C500FB8992 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					03B768482DAC34C700FB8992 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 03B768322DAC34C500FB8992;
+					};
+					03B768522DAC34C700FB8992 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 03B768322DAC34C500FB8992;
+					};
+				};
+			};
+			buildConfigurationList = 03B7682E2DAC34C500FB8992 /* Build configuration list for PBXProject "MeuPrimeiroApp Arthur L" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B7682A2DAC34C500FB8992;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 03B768342DAC34C500FB8992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B768322DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */,
+				03B768482DAC34C700FB8992 /* MeuPrimeiroApp Arthur LTests */,
+				03B768522DAC34C700FB8992 /* MeuPrimeiroApp Arthur LUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B768312DAC34C500FB8992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B768472DAC34C700FB8992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B768512DAC34C700FB8992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B7682F2DAC34C500FB8992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B768452DAC34C700FB8992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B7684F2DAC34C700FB8992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B7684B2DAC34C700FB8992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B768322DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */;
+			targetProxy = 03B7684A2DAC34C700FB8992 /* PBXContainerItemProxy */;
+		};
+		03B768552DAC34C700FB8992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B768322DAC34C500FB8992 /* MeuPrimeiroApp Arthur L */;
+			targetProxy = 03B768542DAC34C700FB8992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03B7685D2DAC34C700FB8992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MeuPrimeiroApp Arthur L/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.MeuPrimeiroApp-Arthur-L";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B7685E2DAC34C700FB8992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MeuPrimeiroApp Arthur L/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.MeuPrimeiroApp-Arthur-L";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03B7685F2DAC34C700FB8992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03B768602DAC34C700FB8992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B768622DAC34C700FB8992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.MeuPrimeiroApp-Arthur-LTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeuPrimeiroApp Arthur L.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeuPrimeiroApp Arthur L";
+			};
+			name = Debug;
+		};
+		03B768632DAC34C700FB8992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.MeuPrimeiroApp-Arthur-LTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeuPrimeiroApp Arthur L.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeuPrimeiroApp Arthur L";
+			};
+			name = Release;
+		};
+		03B768652DAC34C700FB8992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.MeuPrimeiroApp-Arthur-LUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MeuPrimeiroApp Arthur L";
+			};
+			name = Debug;
+		};
+		03B768662DAC34C700FB8992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.MeuPrimeiroApp-Arthur-LUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MeuPrimeiroApp Arthur L";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B7682E2DAC34C500FB8992 /* Build configuration list for PBXProject "MeuPrimeiroApp Arthur L" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B7685F2DAC34C700FB8992 /* Debug */,
+				03B768602DAC34C700FB8992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B7685C2DAC34C700FB8992 /* Build configuration list for PBXNativeTarget "MeuPrimeiroApp Arthur L" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B7685D2DAC34C700FB8992 /* Debug */,
+				03B7685E2DAC34C700FB8992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B768612DAC34C700FB8992 /* Build configuration list for PBXNativeTarget "MeuPrimeiroApp Arthur LTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B768622DAC34C700FB8992 /* Debug */,
+				03B768632DAC34C700FB8992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B768642DAC34C700FB8992 /* Build configuration list for PBXNativeTarget "MeuPrimeiroApp Arthur LUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B768652DAC34C700FB8992 /* Debug */,
+				03B768662DAC34C700FB8992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B7682B2DAC34C500FB8992 /* Project object */;
+}
