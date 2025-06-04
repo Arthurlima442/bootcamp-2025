@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		006B58A52DF094B200C82CDF /* PrimeiroAppViewCode-Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrimeiroAppViewCode-Arthur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		006B58EA2DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrimeiroAppViewCode2-Arthur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		006B58B72DF094B300C82CDF /* Exceptions for "PrimeiroAppViewCode-Arthur" folder in "PrimeiroAppViewCode-Arthur" target */ = {
+		006B58FC2DF0D2F800C82CDF /* Exceptions for "PrimeiroAppViewCode2-Arthur" folder in "PrimeiroAppViewCode2-Arthur" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 006B58A42DF094B200C82CDF /* PrimeiroAppViewCode-Arthur */;
+			target = 006B58E92DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		006B58A72DF094B200C82CDF /* PrimeiroAppViewCode-Arthur */ = {
+		006B58EC2DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				006B58B72DF094B300C82CDF /* Exceptions for "PrimeiroAppViewCode-Arthur" folder in "PrimeiroAppViewCode-Arthur" target */,
+				006B58FC2DF0D2F800C82CDF /* Exceptions for "PrimeiroAppViewCode2-Arthur" folder in "PrimeiroAppViewCode2-Arthur" target */,
 			);
-			path = "PrimeiroAppViewCode-Arthur";
+			path = "PrimeiroAppViewCode2-Arthur";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		006B58A22DF094B200C82CDF /* Frameworks */ = {
+		006B58E72DF0D2F700C82CDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,91 +42,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		006B589C2DF094B200C82CDF = {
+		006B58E12DF0D2F700C82CDF = {
 			isa = PBXGroup;
 			children = (
-				006B58DA2DF0CBC400C82CDF /* App */,
-				006B58A62DF094B200C82CDF /* Products */,
+				006B58EC2DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur */,
+				006B58EB2DF0D2F700C82CDF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		006B58A62DF094B200C82CDF /* Products */ = {
+		006B58EB2DF0D2F700C82CDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				006B58A52DF094B200C82CDF /* PrimeiroAppViewCode-Arthur.app */,
+				006B58EA2DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		006B58DA2DF0CBC400C82CDF /* App */ = {
-			isa = PBXGroup;
-			children = (
-				006B58A72DF094B200C82CDF /* PrimeiroAppViewCode-Arthur */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		006B58A42DF094B200C82CDF /* PrimeiroAppViewCode-Arthur */ = {
+		006B58E92DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 006B58B82DF094B300C82CDF /* Build configuration list for PBXNativeTarget "PrimeiroAppViewCode-Arthur" */;
+			buildConfigurationList = 006B58FD2DF0D2F800C82CDF /* Build configuration list for PBXNativeTarget "PrimeiroAppViewCode2-Arthur" */;
 			buildPhases = (
-				006B58A12DF094B200C82CDF /* Sources */,
-				006B58A22DF094B200C82CDF /* Frameworks */,
-				006B58A32DF094B200C82CDF /* Resources */,
+				006B58E62DF0D2F700C82CDF /* Sources */,
+				006B58E72DF0D2F700C82CDF /* Frameworks */,
+				006B58E82DF0D2F700C82CDF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				006B58A72DF094B200C82CDF /* PrimeiroAppViewCode-Arthur */,
+				006B58EC2DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur */,
 			);
-			name = "PrimeiroAppViewCode-Arthur";
+			name = "PrimeiroAppViewCode2-Arthur";
 			packageProductDependencies = (
 			);
-			productName = "PrimeiroAppViewCode-Arthur";
-			productReference = 006B58A52DF094B200C82CDF /* PrimeiroAppViewCode-Arthur.app */;
+			productName = "PrimeiroAppViewCode2-Arthur";
+			productReference = 006B58EA2DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		006B589D2DF094B200C82CDF /* Project object */ = {
+		006B58E22DF0D2F700C82CDF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					006B58A42DF094B200C82CDF = {
+					006B58E92DF0D2F700C82CDF = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 006B58A02DF094B200C82CDF /* Build configuration list for PBXProject "PrimeiroAppViewCode-Arthur" */;
+			buildConfigurationList = 006B58E52DF0D2F700C82CDF /* Build configuration list for PBXProject "PrimeiroAppViewCode2-Arthur" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 006B589C2DF094B200C82CDF;
+			mainGroup = 006B58E12DF0D2F700C82CDF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 006B58A62DF094B200C82CDF /* Products */;
+			productRefGroup = 006B58EB2DF0D2F700C82CDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				006B58A42DF094B200C82CDF /* PrimeiroAppViewCode-Arthur */,
+				006B58E92DF0D2F700C82CDF /* PrimeiroAppViewCode2-Arthur */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		006B58A32DF094B200C82CDF /* Resources */ = {
+		006B58E82DF0D2F700C82CDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		006B58A12DF094B200C82CDF /* Sources */ = {
+		006B58E62DF0D2F700C82CDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		006B58B92DF094B300C82CDF /* Debug */ = {
+		006B58FE2DF0D2F800C82CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -154,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PrimeiroAppViewCode-Arthur/Info.plist";
+				INFOPLIST_FILE = "PrimeiroAppViewCode2-Arthur/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -165,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.PrimeiroAppViewCode-Arthur";
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp2025.PrimeiroAppViewCode2-Arthur";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -173,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		006B58BA2DF094B300C82CDF /* Release */ = {
+		006B58FF2DF0D2F800C82CDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -181,7 +173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PrimeiroAppViewCode-Arthur/Info.plist";
+				INFOPLIST_FILE = "PrimeiroAppViewCode2-Arthur/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -192,7 +184,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp.PrimeiroAppViewCode-Arthur";
+				PRODUCT_BUNDLE_IDENTIFIER = "bootcamp2025.PrimeiroAppViewCode2-Arthur";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -200,7 +192,7 @@
 			};
 			name = Release;
 		};
-		006B58BB2DF094B300C82CDF /* Debug */ = {
+		006B59002DF0D2F800C82CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		006B58BC2DF094B300C82CDF /* Release */ = {
+		006B59012DF0D2F800C82CDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		006B58A02DF094B200C82CDF /* Build configuration list for PBXProject "PrimeiroAppViewCode-Arthur" */ = {
+		006B58E52DF0D2F700C82CDF /* Build configuration list for PBXProject "PrimeiroAppViewCode2-Arthur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				006B58BB2DF094B300C82CDF /* Debug */,
-				006B58BC2DF094B300C82CDF /* Release */,
+				006B59002DF0D2F800C82CDF /* Debug */,
+				006B59012DF0D2F800C82CDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		006B58B82DF094B300C82CDF /* Build configuration list for PBXNativeTarget "PrimeiroAppViewCode-Arthur" */ = {
+		006B58FD2DF0D2F800C82CDF /* Build configuration list for PBXNativeTarget "PrimeiroAppViewCode2-Arthur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				006B58B92DF094B300C82CDF /* Debug */,
-				006B58BA2DF094B300C82CDF /* Release */,
+				006B58FE2DF0D2F800C82CDF /* Debug */,
+				006B58FF2DF0D2F800C82CDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 006B589D2DF094B200C82CDF /* Project object */;
+	rootObject = 006B58E22DF0D2F700C82CDF /* Project object */;
 }
