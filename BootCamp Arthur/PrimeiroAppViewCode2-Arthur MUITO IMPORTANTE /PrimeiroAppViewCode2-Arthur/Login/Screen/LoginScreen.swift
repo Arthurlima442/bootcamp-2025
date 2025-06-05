@@ -5,6 +5,31 @@
 //  Created by Arthur Lima on 04/06/2025.
 //
 
+// MARK: - RECEITA DE BOLO VIEWCODE
+// PASSO A PASSO
+
+// 1 - Criar Screen (ex: LoginViewController -> LoginScreen. RegisterViewController -> RegisterScreen)
+// 2 - Chamar construtor
+// Exemplo:
+// init() {
+//  super.init(frame: .zero)
+// }
+//
+// required init?(coder: NSCoder) {
+//  fatalError("init(coder:) has not been implemented")
+// }
+// 3 - Criar e configurar elemento (NÃO SE ESQUEÇA DO translatesAutoresizingMaskIntoConstraints = false)
+// 4 - Adicionar elemento (não se esqueça de chamar função)
+// 5 - Configurar constraints (não se esqueça de chamar função)
+// 6 - Chamar no LoadView
+// 7 - Corre pro abraço!!!
+
+// Criando protocolo
+// Coloque o nome do seu protocol o com sufixo Protocol (apenas recomendação, você pode colocar o nome que quiser).
+// SEMPRE coloque : AnyObject
+// SEMPRE declare com:
+// weak var delegate: NomeDoProtocol?
+
 import UIKit
 
 protocol LoginScreenProtocol: AnyObject {
