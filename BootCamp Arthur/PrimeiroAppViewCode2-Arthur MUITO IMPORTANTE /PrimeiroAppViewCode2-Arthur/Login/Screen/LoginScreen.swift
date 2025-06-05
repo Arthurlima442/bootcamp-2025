@@ -8,11 +8,13 @@
 import UIKit
 
 protocol LoginScreenProtocol: AnyObject {
+    
     func tappedLoginButton()
+    func tappedRegisterButton()
 }
 
 class LoginScreen: UIView {
-
+    
     weak var delegate: LoginScreenProtocol?
     
     
@@ -60,15 +62,31 @@ class LoginScreen: UIView {
         button.setTitle("Login", for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .white
         button.clipsToBounds = true
-        button.layer.cornerRadius = 5
+        button.layer.cornerRadius = 8
         button.addTarget(self, action: #selector(tappedLoginButton), for: .touchUpInside)
+        button.backgroundColor = .white
         return button
     }()
     
+    lazy var registerButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("Nao tem conta? Cadastre-se", for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 14)
+        button.setTitleColor(.black, for: .normal)
+        button.addTarget(self, action: #selector(tappedRegisterButton), for: .touchUpInside)
+        return button
+    }()
+    
+    
+    
     @objc func tappedLoginButton() {
         delegate?.tappedLoginButton()
+    }
+    
+    @objc func tappedRegisterButton() {
+        delegate?.tappedRegisterButton()
     }
     
     init() {
@@ -88,6 +106,7 @@ class LoginScreen: UIView {
         addSubview(logoImageView)
         addSubview(passwordTextField)
         addSubview(loginButton)
+        addSubview(registerButton)
         addSubview(emailTextField)
     }
     
@@ -115,8 +134,10 @@ class LoginScreen: UIView {
             loginButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -40),
             loginButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 40),
             loginButton.heightAnchor.constraint(equalToConstant: 40),
-
             
+            registerButton.topAnchor.constraint(equalTo: passwordTextField.bottomAnchor, constant: 20),
+            registerButton.centerXAnchor.constraint(equalTo: centerXAnchor),
+            registerButton.heightAnchor.constraint(equalToConstant: 40),
             
             
             
