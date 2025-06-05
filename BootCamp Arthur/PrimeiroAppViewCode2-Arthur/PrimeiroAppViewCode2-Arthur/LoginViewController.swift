@@ -21,9 +21,13 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        screen?.delegate = self
     }
     
     
 }
-
+extension LoginViewController: LoginScreenProtocol {
+    func tappedLoginButton() {
+        print(#function)
+    }
+}
