@@ -9,20 +9,19 @@ import UIKit
 
 class ListScreen: UIView {
     
-    
     lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
         // TO DO: REGISTER
-        tableView.backgroundColor = .white
+        tableView.backgroundColor = .black
         tableView.separatorStyle = .none
+        tableView.register(PersonTableViewCell.self, forCellReuseIdentifier: PersonTableViewCell.identifier)
         return tableView
     }()
     
-
-    init () {
+    init() {
         super.init(frame: .zero)
-        backgroundColor = .red
+        backgroundColor = .black
         addElements()
         configConstraints()
         
@@ -36,16 +35,12 @@ class ListScreen: UIView {
         addSubview(tableView)
     }
     
-    func configConstraints () {
+    func configConstraints() {
         NSLayoutConstraint.activate([
-           
             tableView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
             tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
             tableView.bottomAnchor.constraint(equalTo: bottomAnchor),
-
-            
-            
         ])
     }
     
